@@ -1,0 +1,16 @@
+# Exclude assets that aren't for the web
+slides/
+*.pptx
+*.jpg
+*.png
+!assets/*.png
+!assets/*.jpg
+
+# System files
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+
+# Agent artifacts
+.gemini/
